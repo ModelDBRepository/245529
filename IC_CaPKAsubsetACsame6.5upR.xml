@@ -1,0 +1,67 @@
+<InitialConditions>
+
+  <ConcentrationSet region="dend">
+    <!-- calcium interacting proteins -->
+        <NanoMolarity specieID="Ca"           value="60"/>
+	<!-- total calbindin = 160 uM -->
+        <NanoMolarity specieID="Calbin"       value="159980"/>
+        <NanoMolarity specieID="CalbinC"      value="20"/>
+
+	<!-- total calmodulin = 9000 nM (multiply AC bound by (3/4)-->
+      	<NanoMolarity specieID="Cam"          value="3850"/>
+      	<NanoMolarity specieID="CamCa2C"      value="130"/>
+      	<NanoMolarity specieID="CamCa2N"      value="20"/>
+      	<NanoMolarity specieID="CamCa4"       value="0"/>
+	
+<!-- total PP2B = 5000 nM--> 
+        <NanoMolarity specieID="PP2B"                 value="96" />
+        <NanoMolarity specieID="PP2BCam"              value="3482" />
+        <NanoMolarity specieID="PP2BCamCa2C"          value="1231" />
+        <NanoMolarity specieID="PP2BCamCa2N"          value="181" />
+        <NanoMolarity specieID="PP2BCamCa4"           value="10" />
+
+    <NanoMolarity specieID="L"            value="2.0"/>
+    <NanoMolarity specieID="ATP"          value="1998000.0"/>
+    <NanoMolarity specieID="cAMP"         value="89.0"/>
+    <NanoMolarity specieID="AMP"          value="0.0"/>
+    <NanoMolarity specieID="Epac1cAMP"    value="35.0"/>
+    <NanoMolarity specieID="Epac1"        value="1965.0"/>
+    <!--560 PDE4 in 6.5u with same AC as 1.5u -->
+    <NanoMolarity specieID="PDE4"         value="230.0"/>
+    <NanoMolarity specieID="pPDE4"        value="13.0"/>
+    <NanoMolarity specieID="PKAcPDE4"     value="0.0"/>
+    <NanoMolarity specieID="PDE4cAMP"     value="7.0"/>
+    <NanoMolarity specieID="pPDE4cAMP"    value="0.0"/>
+    
+    <NanoMolarity specieID="PKAc" value="0.0"/>
+  </ConcentrationSet>
+ 
+  <SurfaceDensitySet region="dend">
+    <!--Gtot=3600, Gs2911,Gbg92 Rtot=600-->
+    <PicoSD specieID="R"      value="3.0"/>
+    <PicoSD specieID="LR"     value="0.0"/>
+    <PicoSD specieID="Gs"     value="2985.0"/>
+    <PicoSD specieID="GsR"    value="596.0"/>
+    <PicoSD specieID="LRGs"   value="1.0"/>
+    <PicoSD specieID="pLRGs"  value="0.0"/>
+    <PicoSD specieID="GasGTP" value="3.0"/>
+    <PicoSD specieID="GasGDP" value="0.0"/>
+    <PicoSD specieID="Gbg"    value="18.0"/>
+
+    <PicoSD specieID="PKA"      value="1234.0"/>
+    <PicoSD specieID="PKAr"     value="0.0"/>
+    <PicoSD specieID="PKAcAMP2" value="672.0"/>
+    <PicoSD specieID="PKAcAMP4" value="94.0"/>
+    <!--1700 AC in small dend, 70 AC5 53,2,15-->
+    <PicoSD specieID="AC1"               value="1564.0"/>
+    <PicoSD specieID="AC1GasGTP"         value="8.0"/>
+    <PicoSD specieID="AC1CamCa4"         value="7.0"/>
+    <PicoSD specieID="AC1GasCamCa4"      value="0.0"/>
+    <PicoSD specieID="AC1CamCa4ATP"      value="121.0"/>
+    <PicoSD specieID="AC1GasCamCa4ATP"   value="0.0"/>
+    <PicoSD specieID="AC5"               value="63" />
+    <PicoSD specieID="AC5Gas"            value="2" />
+    <PicoSD specieID="AC5GasATP"         value="5" />
+
+</SurfaceDensitySet>
+</InitialConditions>

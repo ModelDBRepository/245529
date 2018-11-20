@@ -1,0 +1,14 @@
+java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubset6.5uACsamepR_L1000.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubsetpR_6.5u-PKAx1-L100.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubsetpR_6.5u-PKAx1-L1000.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubsetpR_6.5u-PKAx3-L1000.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_6.5u-X2-PP1.5.xml &
+java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubset1.5uACsamepR_L1000.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubset1.5upR-L100.xml 
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKAsubset1.5upR-L1000.xml 
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X10-PP1.5.xml & 
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X10-PP3.5.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X2-PP2.5.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X2-PP3.5.xml &
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X2-PP1.5.xml&
+#java -Dstochdiff.log=false -jar /home/neuroware/stochdif/stochdiff-3.0.0-8.jar Model_VinceCaPKA_I1PP1_1.5u-X2-PP4.5.xml &

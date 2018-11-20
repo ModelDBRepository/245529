@@ -1,0 +1,90 @@
+<OutputScheme>
+
+<OutputSet filename ="dt100" dt="100">
+
+  <OutputSpecie name="Ca"/>
+  <OutputSpecie name="CalbinC"/> 
+  <OutputSpecie name="Calbin"/>
+  <OutputSpecie name="Cam"/>
+  <OutputSpecie name="CamCa2C"/>
+  <OutputSpecie name="CamCa2N"/>
+  <OutputSpecie name="CamCa4"/>
+  
+  <OutputSpecie       name="Epac1"     />
+  <OutputSpecie       name="Epac1cAMP"     />
+  <OutputSpecie       name="cAMP"        />
+  <OutputSpecie       name="AMP"        />
+
+ 
+        <OutputSpecie       name="L"           />
+        <OutputSpecie       name="R"           />
+        <OutputSpecie       name="Gs"           />
+        <OutputSpecie       name="GsR"           />
+        <OutputSpecie       name="LR"          />
+        <OutputSpecie       name="LRGs"         />
+        <OutputSpecie       name="PKAcLRGs"         />
+        <OutputSpecie       name="pLRGs"         />
+        <OutputSpecie       name="GasGTP"       />
+        <OutputSpecie       name="GasGDP"       />
+        <OutputSpecie       name="Gbg"       />
+
+        <OutputSpecie       name="AC1"         />
+        <OutputSpecie       name="AC1GasGTP"    />
+        <OutputSpecie       name="AC1GasCamCa4"        />
+        <OutputSpecie       name="AC1GasCamCa4ATP"     />
+        <OutputSpecie       name="AC1CamCa4"      />
+        <OutputSpecie       name="AC1CamCa4ATP"   />
+
+	<OutputSpecie       name="AC5"/>
+	<OutputSpecie       name="AC5Gas"/>
+	<OutputSpecie       name="AC5GasATP"/>
+
+	<OutputSpecie       name="PKA"         />
+        <OutputSpecie       name="PKAcAMP2"    />
+        <OutputSpecie       name="PKAcAMP4"    />
+        <OutputSpecie       name="PKAr"        />
+        <OutputSpecie       name="PKAc"        />
+
+        <OutputSpecie       name="PDE4"  />
+        <OutputSpecie       name="PDE4cAMP"  />
+        <OutputSpecie       name="PKAcPDE4"  />
+        <OutputSpecie       name="pPDE4"  />
+        <OutputSpecie       name="pPDE4cAMP" />
+	<OutputSpecie       name="pPDE4PP1"  />
+
+	<OutputSpecie       name="pX"  />
+	<OutputSpecie       name="PKAcX"  />
+	<OutputSpecie       name="pXPP1"  />
+
+        <OutputSpecie       name="I1"          />
+        <OutputSpecie       name="I1PKAc"      />
+        <OutputSpecie       name="Ip35"        />
+        <OutputSpecie       name="PP1"        />
+        <OutputSpecie       name="Ip35PP1"     />
+        <OutputSpecie       name="Ip35PP1PP2BCaMCa4"    />
+
+    <OutputSpecie name="PP2B"/>
+    <OutputSpecie name="PP2BCam"/>
+    <OutputSpecie name="PP2BCamCa2C"/>
+    <OutputSpecie name="PP2BCamCa2N"/>
+    <OutputSpecie name="PP2BCamCa4"/>
+</OutputSet>
+
+</OutputScheme>
+
+
+<!--
+	SYNTAX:
+	Each file will have a set of concentrations in compartments sampled according to the specified dt.
+
+	Every <OutputSet> block must have in its definition one (and only one) instance of:
+	 * filename
+	And might have one (and only one) instance of:
+	 * region or
+	 * dt
+	If "region" is omitted, then the conc's for the whole system will be saved.
+	If "dt" is omitted, then the conc's will be written at each time step.
+
+	So the "IO file" will be dependent on information stated in both the "Morph" (regions) and "Model" (dt) files.
+
+-->
